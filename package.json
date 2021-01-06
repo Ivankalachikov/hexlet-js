@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Hexlet Environment",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/Ivankalachikov/hexlet-js.git"
   },
   "author": "Ivan Kalachikov",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ivankalachikov/hexlet-js/issues"
   },
-  "homepage": "https://github.com/Ivankalachikov/hexlet-js#readme"
+  "homepage": "https://github.com/Ivankalachikov/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
